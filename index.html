@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruang Warga - informasi kesehatan, administrasi, dan pendidikan masyarakat.">
+  <title>Ruang Warga | Portal Masyarakat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar" id="beranda">
+  <a class="brand" href="#beranda"><span class="brand-mark">RW</span><span>RUANG<span class="brand-accent">WARGA</span><small>Portal Informasi Masyarakat</small></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+  <nav class="nav-links" id="navLinks">
+    <a href="#beranda">Beranda</a><a href="#kesehatan">Administrasi</a><a href="#administrasi">Pendidikan</a><a href="#pendidikan"></a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">PORTAL INFORMASI MASYARAKAT</span>
+      <h1>Semua kebutuhan warga,<br><span>dalam satu ruang.</span></h1>
+      <p>Akses informasi kesehatan, layanan administrasi, dan pendidikan dengan lebih mudah dan praktis.</p>
+      <a class="btn btn-primary" href="#layanan">Jelajahi layanan <span>→</span></a>
+      <div class="hero-meta"><span class="meta-dot"></span> Informasi lebih dekat untuk semua warga</div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="visual-orbit"></div>
+      <div class="float-card float-health"><span class="float-icon green">🕮</span><span><b>Pendidikan</b><small>Belajar & beasiswa</small></span></div>
+      <div class="float-card float-admin"><span class="float-icon orange">▤</span><span><b>Administrasi</b><small>Panduan dokumen</small></span></div>
+      <div class="visual-center"><span>RW</span><small>RUANG WARGA</small></div>
+    </div>
+  </section>
+
+  <section class="intro section-wrap" id="layanan">
+    <div><span class="eyebrow">LAYANAN KAMI</span><h2>Apa yang Anda butuhkan?</h2></div>
+    <p>Pilih layanan untuk menemukan informasi dan panduan yang dibutuhkan sehari-hari.</p>
+  </section>
+
+
+  <!-- LAYANAN -->
+  <section class="service-grid section-wrap">
+    <article class="service-card" id="kesehatan">
+      <div class="card-top"><span class="service-icon icon-green">♥</span><span class="number">01</span></div>
+      <span class="card-label label-green">KESEHATAN</span>
+      <h3>Mulai hidup sehat dari informasi yang tepat.</h3>
+      <p>Temukan edukasi kesehatan dasar, informasi fasilitas, dan cara mendaftar layanan pemeriksaan.</p>
+      <ul><li>Tips menjaga kesehatan</li><li>Informasi Puskesmas & Posyandu</li><li>Jadwal dan kontak fasilitas</li><li>Pendaftaran pemeriksaan (demo)</li></ul>
+      <div class="card-actions"><a class="btn btn-soft-green" href="#tips-sehat">Baca informasi</a><button class="btn btn-outline" type="button" data-open-registration>Daftar pemeriksaan</button></div>
+      <small class="disclaimer">Pendaftaran ini masih simulasi dan belum terhubung dengan fasilitas kesehatan.</small>
+    </article>
+
+    <article class="service-card" id="administrasi">
+      <div class="card-top"><span class="service-icon icon-orange">▤</span><span class="number">02</span></div>
+      <span class="card-label label-orange">LAYANAN ADMINISTRASI</span>
+      <h3>Ada kendala administrasi? Sampaikan kepada kami.</h3>
+      <p>Temukan panduan dokumen atau laporkan masalah pelayanan administrasi yang sedang dihadapi.</p>
+      <ul><li>Kendala KTP dan Kartu Keluarga</li><li>Akta kelahiran dan surat domisili</li><li>Informasi persyaratan dokumen</li><li>Pengaduan kendala pelayanan</li></ul>
+      <div class="card-actions"><a class="btn btn-soft-orange" href="#panduan">Lihat panduan</a><button class="btn btn-outline" type="button" data-open-admin-report>Laporkan masalah</button></div>
+      <small class="disclaimer">Laporan pada versi demo belum dikirim ke kantor desa/kelurahan.</small>
+    </article>
+
+    <article class="service-card" id="pendidikan">
+      <div class="card-top"><span class="service-icon icon-blue">🕮</span><span class="number">03</span></div>
+      <span class="card-label label-blue">PENDIDIKAN</span>
+      <h3>Rekomendasi belajar sesuai jenjang Anda.</h3>
+      <p>Masukkan nama dan jenjang pendidikan untuk melihat rekomendasi buku, koleksi Perpustakaan Desa, serta informasi akademik.</p>
+      <ul><li>Rekomendasi buku sesuai jenjang</li><li>Ketersediaan buku di Perpustakaan Desa</li><li>Informasi beasiswa dan pendaftaran</li><li>Panduan belajar dan materi akademik</li></ul>
+      <div class="card-actions"><a class="btn btn-soft-blue" href="#belajar">Cari rekomendasi belajar</a></div>
+      <small class="disclaimer">Ketersediaan koleksi dan informasi akademik perlu diperbarui oleh pengelola.</small>
+    </article>
+  </section>
+
+
+  <!-- PANDUAN -->
+  <section class="content-section section-wrap" id="panduan">
+    <div class="section-heading"><span class="eyebrow">ADMINISTRASI</span><h2>Panduan dokumen masyarakat</h2><p>Informasi awal. Persyaratan resmi harus dikonfirmasi ke kantor desa/kelurahan atau Disdukcapil.</p></div>
+    <div class="accordion">
+      <details><summary>Kartu Tanda Penduduk (KTP-el)</summary><p>Ikuti prosedur perekaman atau perubahan data sesuai arahan Disdukcapil setempat.</p></details>
+      <details><summary>Kartu Keluarga (KK)</summary><p>Siapkan dokumen pendukung sesuai jenis perubahan data keluarga dan konfirmasi persyaratan terbaru.</p></details>
+      <details><summary>Akta kelahiran</summary><p>Dokumen pendukung dapat mencakup keterangan kelahiran dan identitas orang tua. Periksa ketentuan resmi daerah.</p></details>
+      <details><summary>Surat keterangan domisili</summary><p>Tanyakan terlebih dahulu apakah surat tersedia untuk keperluan Anda dan apa saja dokumen pendukungnya.</p></details>
+    </div>
+  </section>
+
+  <section class="content-section section-wrap" id="belajar">
+    <div class="section-heading"><span class="eyebrow">PENDIDIKAN</span><h2>Rekomendasi belajar untuk warga</h2><p>Isi nama dan jenjang pendidikan untuk melihat contoh rekomendasi buku dan informasi akademik.</p></div>
+    <div class="learning-layout">
+      <form class="learning-form" id="learningForm">
+        <label for="studentName">Nama</label>
+        <input id="studentName" name="studentName" maxlength="80" required placeholder="Masukkan nama Anda">
+        <label for="educationLevel">Jenjang pendidikan</label>
+        <select id="educationLevel" name="educationLevel" required>
+          <option value="">Pilih jenjang</option>
+          <option value="SD">SD / sederajat</option>
+          <option value="SMP">SMP / sederajat</option>
+          <option value="SMA">SMA / SMK / sederajat</option>
+          <option value="Kuliah">Perguruan tinggi</option>
+          <option value="Umum">Umum / belajar mandiri</option>
+        </select>
+        <button class="btn btn-primary submit-btn" type="submit">Tampilkan rekomendasi</button>
+        <p class="form-result" id="learningResult" role="status" aria-live="polite"></p>
+      </form>
+      <div class="recommendation-panel" id="recommendationPanel">
+        <span class="recommendation-icon">☎</span>
+        <h3>Rekomendasi akan muncul di sini</h3>
+        <p>Setelah mengisi nama dan jenjang, website akan menampilkan contoh buku yang relevan. Pengelola nantinya dapat menghubungkannya dengan katalog Perpustakaan Desa.</p>
+      </div>
+    </div>
+
+    <div class="academic-heading"><span class="eyebrow">INFORMASI AKADEMIK</span><h3>Beasiswa dan kesempatan pendidikan</h3><p>Informasi ringkas yang dapat dilengkapi pengelola dengan pengumuman resmi terbaru.</p></div>
+    <div class="academic-grid">
+      <article class="academic-card"><span class="academic-tag">BEASISWA</span><h4>Beasiswa Program Indonesia Pintar (PIP)</h4><p>Bantuan pendidikan bagi peserta didik yang memenuhi kriteria program. Periksa ketentuan dan proses melalui sekolah serta kanal resmi pemerintah.</p><a href="https://pip.kemendikdasmen.go.id/" target="_blank" rel="noopener noreferrer">Kunjungi situs resmi ↗</a></article>
+      <article class="academic-card"><span class="academic-tag">PERGURUAN TINGGI</span><h4>KIP Kuliah</h4><p>Informasi bantuan biaya pendidikan untuk calon mahasiswa yang memenuhi persyaratan. Cek jadwal, ketentuan, dan proses pendaftaran pada portal resmi.</p><a href="#panduan_beasiswa" target="_blank" rel="noopener noreferrer">Kunjungi situs resmi ↗</a></article>
+      <article class="academic-card"><span class="academic-tag">PANDUAN</span><h4>Persiapan mendaftar beasiswa</h4><p>Pelajari syarat, siapkan dokumen, perhatikan tenggat waktu, isi formulir dengan benar, dan simpan bukti pendaftaran.</p><a href="#panduan-beasiswa">Baca langkah pendaftaran ↓</a></article>
+    </div>
+    <div class="scholarship-steps" id="panduan-beasiswa"><h4>Langkah umum mendaftar beasiswa</h4><ol><li>Baca pengumuman dan pastikan memenuhi persyaratan.</li><li>Catat jadwal pembukaan dan batas akhir pendaftaran.</li><li>Siapkan dokumen yang diminta, misalnya identitas, rapor/transkrip, atau surat keterangan.</li><li>Daftar melalui situs atau lembaga resmi penyelenggara.</li><li>Periksa kembali data dan pantau pengumuman hasil seleksi.</li></ol><small>Persyaratan setiap beasiswa berbeda. Selalu ikuti panduan resmi program yang dipilih.</small></div>
+  </section>
+</main>
+
+<footer class="footer"><div class="footer-inner"><a class="brand" href="#beranda"><span class="brand-mark">RW</span><span>RUANG<span class="brand-accent">WARGA</span><small>Portal Informasi Masyarakat</small></span></a><p>Informasi lebih mudah, pelayanan lebih dekat.</p><small>© 2026 Ruang Warga · Proyek tugas kuliah</small></div></footer>
+
+<dialog class="modal" id="adminReportDialog">
+  <form id="adminReportForm">
+    <div class="modal-head"><div><span class="eyebrow">SIMULASI PENGADUAN</span><h2>Laporkan masalah administrasi</h2></div><button class="close-modal" type="button" id="closeAdminDialog" aria-label="Tutup">×</button></div>
+    <p class="modal-note">Jangan tuliskan NIK, nomor KK, kata sandi, atau data pribadi sensitif. Laporan ini hanya simulasi dan belum diteruskan ke petugas.</p>
+    <label for="reporterName">Nama pelapor</label><input id="reporterName" required maxlength="80" placeholder="Nama Anda">
+    <label for="adminIssue">Jenis masalah</label><select id="adminIssue"><option>Pengurusan KTP</option><option>Kartu Keluarga</option><option>Akta kelahiran</option><option>Surat domisili</option><option>Informasi persyaratan</option><option>Kendala pelayanan lainnya</option></select>
+    <label for="issueDescription">Ceritakan masalah yang dihadapi</label><textarea id="issueDescription" rows="4" maxlength="1000" required placeholder="Jelaskan kendala secara singkat..."></textarea>
+    <button class="btn btn-primary submit-btn" type="submit">Kirim laporan simulasi</button>
+    <p class="form-result" id="adminReportResult" role="status" aria-live="polite"></p>
+  </form>
+</dialog>
+
+<dialog class="modal" id="registrationDialog">
+  <form id="registrationForm">
+    <div class="modal-head"><div><span class="eyebrow">SIMULASI PENDAFTARAN</span><h2>Daftar pemeriksaan</h2></div><button class="close-modal" type="button" id="closeDialog" aria-label="Tutup">×</button></div>
+    <p class="modal-note">Ini hanya demo tampilan. Jangan masukkan NIK atau data medis sensitif. Data belum dikirim ke Puskesmas/Posyandu.</p>
+    <label for="patientName">Nama warga</label><input id="patientName" required maxlength="80" autocomplete="name" placeholder="Masukkan nama">
+    <label for="patientAge">Usia</label><input id="patientAge" type="number" min="0" max="120" required placeholder="Masukkan usia">
+    <label for="facility">Fasilitas kesehatan</label><select id="facility"><option>Puskesmas</option><option>Posyandu</option><option>Klinik</option></select>
+    <label for="service">Jenis pelayanan</label><select id="service"><option>Pemeriksaan umum</option><option>Pemeriksaan ibu dan anak</option><option>Imunisasi</option><option>Konsultasi kesehatan</option></select>
+    <label for="visitDate">Tanggal yang diinginkan</label><input id="visitDate" type="date" required>
+    <button class="btn btn-primary submit-btn" type="submit">Kirim simulasi</button>
+    <p class="form-result" id="formResult" role="status" aria-live="polite"></p>
+  </form>
+</dialog>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
