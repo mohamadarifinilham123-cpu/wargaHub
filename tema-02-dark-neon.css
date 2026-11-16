@@ -1,0 +1,20 @@
+/* TEMA 02 - Dark Neon: mode gelap dengan aksen hijau neon menyala */
+:root{--ink:#e8fff3;--muted:#8fb3a3;--green:#2cff9a;--line:#1c3a2f;--bg:#07120d;--soft:#0c1c15}
+body{background:#07120d;color:var(--ink)}
+.navbar,.footer,.service-card,.tip,.accordion details,.learning-form,.recommendation-panel,.academic-card,.scholarship-steps,.book-result,.modal,.float-card,.visual-center,.nav-links{background:#0c1c15;border-color:#1c3a2f;color:var(--ink)}
+.hero{background:radial-gradient(600px 400px at 70% 40%,#0f3d2a 0,transparent 70%),#07120d}
+.hero h1 span{color:#2cff9a;text-shadow:0 0 25px #2cff9a88}
+.nav-links{color:#a6cbb9}.nav-links a:hover{color:#2cff9a;text-shadow:0 0 10px #2cff9a}
+.brand-mark{background:#0f3d2a;color:#2cff9a;box-shadow:0 0 18px #2cff9a55}
+.btn-primary{background:#2cff9a;color:#04130c;box-shadow:0 0 22px #2cff9a77}
+.btn-primary:hover{background:#5bffb4;box-shadow:0 0 35px #2cff9a}
+.btn-outline,.btn-soft-green,.btn-soft-orange,.btn-soft-blue{background:#102a1f;color:#2cff9a;border-color:#1f4d3a}
+.service-card:hover{border-color:#2cff9a;box-shadow:0 0 30px #2cff9a33}
+.visual-orbit{background:#0c1c15;border-color:#1f4d3a;box-shadow:0 0 0 28px #0a1812,0 0 0 55px #08140f,0 0 60px #2cff9a33}
+.visual-center{color:#2cff9a;box-shadow:0 0 40px #2cff9a44}
+.education-panel{background:linear-gradient(110deg,#0c1c15,#0f3d2a);border-color:#1f4d3a}
+.panel-star,.recommendation-icon{background:#0f3d2a;color:#2cff9a}
+.modal input,.modal select,.modal textarea,.learning-form input,.learning-form select,.learning-form textarea{background:#07120d;border-color:#1f4d3a;color:#e8fff3}
+.modal-note,.close-modal{background:#102a1f;color:#a6cbb9}
+.content-section,.footer{border-color:#1c3a2f}
+.card-actions .btn,.accordion summary{color:#e8fff3}

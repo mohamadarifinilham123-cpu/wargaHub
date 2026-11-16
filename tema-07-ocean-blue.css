@@ -1,0 +1,27 @@
+/* TEMA 07 - Ocean Blue: biru laut yang segar, bersih, dan profesional */
+:root{--ink:#0a2540;--muted:#5a7189;--green:#0a74da;--line:#dbe9f7;--soft:#f3f8fe}
+body{background:#f6faff}
+.navbar{background:#fff;box-shadow:0 4px 24px #0a74da14;border:0}
+.brand-mark{background:linear-gradient(135deg,#0a74da,#22c1e8);color:#fff}
+.brand-accent{color:#0a74da}
+.hero{background:linear-gradient(160deg,#0a3d7a 0%,#0a74da 60%,#22c1e8 100%);color:#fff;position:relative;overflow:hidden}
+.hero::before,.hero::after{content:"";position:absolute;left:-10%;width:120%;height:90px;background:#ffffff14;border-radius:50%;bottom:-40px}
+.hero::after{bottom:-60px;background:#f6faff}
+.hero h1,.hero-copy>p,.hero-meta{color:#fff}.hero-copy>p{opacity:.9}
+.hero h1 span{color:#9be7ff}.eyebrow{color:#9be7ff}
+.btn-primary{background:#fff;color:#0a4f9e;box-shadow:0 10px 24px #00204a40}
+.btn-primary:hover{background:#e8f6ff}
+.visual-orbit{background:#ffffff1f;border:1px solid #ffffff55;box-shadow:0 0 0 28px #ffffff14,0 0 0 55px #ffffff0d}
+.visual-center{color:#0a74da}
+.float-card{border:0;box-shadow:0 14px 36px #00204a35}
+.service-card{border:1px solid #dbe9f7;border-radius:18px;box-shadow:0 10px 30px #0a74da12;position:relative;overflow:hidden}
+.service-card::before{content:"";position:absolute;left:0;top:0;right:0;height:5px;background:linear-gradient(90deg,#0a74da,#22c1e8)}
+.service-card:hover{box-shadow:0 22px 50px #0a74da25}
+.icon-green,.icon-orange,.icon-blue{background:#e7f2ff;color:#0a74da}
+.label-green,.label-orange,.label-blue{color:#0a74da}
+.btn-soft-green,.btn-soft-orange,.btn-soft-blue{background:#e7f2ff;color:#0a5fb5}
+.btn-outline{color:#0a5fb5;border-color:#cfe2f6}
+.tip>span,.academic-tag{color:#0a74da}.academic-card a{color:#0a74da}
+.education-panel{background:linear-gradient(110deg,#e7f2ff,#fff);border-color:#cfe2f6}
+.panel-star,.recommendation-icon{background:#0a74da;color:#fff}
+.footer{background:#0a2540}.footer p,.footer small,.footer .brand{color:#b7cde4}
